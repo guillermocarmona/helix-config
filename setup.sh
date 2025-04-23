@@ -15,4 +15,6 @@ rustup component add rust-analyzer
 # JavaScript / TypeScript
 npm install -g typescript typescript-language-server
 
+npm install -g emmet-ls
+
 echo "✅ Instalaciones completadas"

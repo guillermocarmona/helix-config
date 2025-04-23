@@ -1,9 +1,8 @@
-
 # ~/.config/helix/languages.toml
 
 [[language]]
 name = "html"
-language-servers = ["vscode-html-language-server"]
+language-servers = ["vscode-html-language-server", "emmet-ls"]
 
 [[language]]
 name = "python"
@@ -15,8 +14,13 @@ language-servers = ["rust-analyzer"]
 
 [[language]]
 name = "javascript"
-language-servers = ["typescript-language-server"]
+language-servers = ["typescript-language-server", "emmet-ls"]
 
 [[language]]
 name = "typescript"
-language-servers = ["typescript-language-server"]
+language-servers = ["typescript-language-server", "emmet-ls"]
+
+[language-server.emmet-ls]
+command = "emmet-ls"
+args = ["--stdio"]
+

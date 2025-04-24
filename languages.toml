@@ -24,3 +24,7 @@ language-servers = ["typescript-language-server", "emmet-ls"]
 command = "emmet-ls"
 args = ["--stdio"]
 
+[language-server.tailwindcss-ls]
+command = "tailwindcss-language-server"
+args = ["--stdio"]
+config = { }
